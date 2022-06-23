@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+header {
+    text-align: center;
+    border: 2px solid black;
+}
+
+header > h1{
+    padding: 3rem 0rem;
+    font-size: 4rem;
+}
+
+.result {
+    border: 2px solid black;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.quiz {
+    background-color: aqua;
+    padding-top: 1rem;
+}
+
+.container {
+    border: 2px solid black;
+    margin: 0 1rem;
+}
+
+.container > h2 {
+    padding: 2rem 0rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.questions {
+    margin: 3rem 0rem;
+}
+
+.questions > p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
