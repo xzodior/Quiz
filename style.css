@@ -6,11 +6,14 @@
 body {
     max-height: 100%;
     max-width: 100%;
+    font-family: 'Nunito', sans-serif;
+    background-color: #eab308;
 }
 
 header {
     text-align: center;
-    border: 2px solid black;
+    color: #eab308;
+    background-color: black;
 }
 
 header > h1{
@@ -18,37 +21,58 @@ header > h1{
     font-size: 4rem;
 }
 
-.result {
-    border: 2px solid black;
-    margin-bottom: 2rem;
+header > p{
+    padding: 1rem 0rem;
     font-size: 2rem;
 }
 
+.result {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    display: none;
+}
+
 .quiz {
-    background-color: aqua;
     padding-top: 1rem;
+    background-color: #eab308;
 }
 
 .container {
-    border: 2px solid black;
     margin: 0 1rem;
 }
 
 .container > h2 {
     padding: 2rem 0rem;
-    font-size: 3rem;
+    font-size: clamp(3rem, 5vw, 5rem);
     text-align: center;
 }
 
 .questions {
-    margin: 3rem 0rem;
+    margin: 2rem 2rem;
 }
 
 .questions > p {
-    font-size: 2rem;
+    font-size: clamp(2rem, 2vw, 4rem);
     margin-bottom: 2rem;
 }
 
 label {
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1.5vw, 5rem);
+    vertical-align: middle;
+    font-weight: 300;
+}
+
+input {
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+}
+
+input[type=submit] {
+    font-size: 2rem;
+    margin: 3rem 0rem;
+    padding: 10px 20px; 
+    border-radius: 30px;
 }
