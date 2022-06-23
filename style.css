@@ -24,12 +24,17 @@ header > h1{
 header > p{
     padding: 1rem 0rem;
     font-size: 2rem;
+    display: block;
 }
 
-.result {
-    margin-bottom: 2rem;
-    font-size: 2rem;
+#result {
+    font-size: 3rem;
+    padding: 3rem;
     display: none;
+}
+
+.score {
+    font-size: 3rem;
 }
 
 .quiz {
